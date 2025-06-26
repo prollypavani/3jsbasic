@@ -1,9 +1,27 @@
-One step ahead is always a win. After exploring HTML, CSS, JS i decided to dive in the world 
-of 3js and it's so cool. While the implementation of a 3d animation using 3js requires NPM node.js 
-local server setup, a project as minor as a spinning cube can be deployed without hosting a local server 
-which i've created right here. this is so because three can't be imported through cdn and requires npm setup for import and fine working however a spinning cube requires basic setup of scene, camera and rendering, hence i was build it. 
+# 🌀 Spinning Cube with Three.js
 
-have a look at it:
-https://prollypavani.github.io/3jsbasic/
+> "One step ahead is always a win."
 
-World of Development is treating me well ig.
+![Spinning Cube Preview](./cube.png)
+
+After getting comfortable with **HTML**, **CSS**, and **JavaScript**, I decided to dive into the world of **Three.js** — and it's been such a fun learning curve!
+
+This project is my very first hands-on experiment with 3D in the browser: a simple but satisfying spinning cube. It might look small, but under the hood, it introduced me to how 3D scenes, cameras, and render loops work.
+
+ Live Preview
+🎯 [Try it out here](https://prollypavani.github.io/3jsbasic/)
+
+ What I Explored
+- Creating a 3D scene with **Three.js**
+- Using a **PerspectiveCamera** and setting up a **renderer**
+- Making objects rotate with the animation loop
+- Importing Three.js modules **without Node.js** (just native module scripts!)
+- Keeping it light — no bundlers, no servers, just code
+
+ Tech Stack
+- HTML5
+- CSS3 
+- JavaScript (ES6 Modules)
+- [Three.js](https://threejs.org/) (imported natively)
+
+
